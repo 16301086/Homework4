@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginVertical="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_class"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/classes"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:layout_marginBottom="2dp"
+            />
+
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intro : \nThis class can shape your body and help you lose weight!\nOnly $50 per month to join this class if you are our member!"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_margin="4dp"
+                android:id="@+id/textView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coach："
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_margin="4dp"
+                android:id="@+id/textView_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr.Qin"/>
+            <TextView
+                android:layout_margin="4dp"
+                android:id="@+id/textView_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13207716967"/>
+            <Button
+                android:id="@+id/send"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:text="Send SMS"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:id="@+id/textView_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

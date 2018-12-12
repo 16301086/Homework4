@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Sports App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="clock1">Today\'s clock!</string>
+    <string name="clock2">Good day!Hope you can join us! </string>
+    <string name="clock3">Wooow!I did an hour of yoga!That\'s great! I\'m closer to the dream!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment3">Fragment3</string>
+    <string name="title_activity_me">Me</string>
+    <string name="title_activity_intro">Intro</string>
+</resources>

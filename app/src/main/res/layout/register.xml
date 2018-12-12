@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/background"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="- Register -"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_phone_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="phone"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_password_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/register_passwordConfiguration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/register_passwordConfiguration_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password Configuration"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/register_register"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Register"
+            android:textAppearance="@android:style/TextAppearance.DialogWindowTitle"
+            android:layout_margin="10dp"
+            android:background="#6294a9"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/register_login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Back to Login"
+            android:textAppearance="@android:style/TextAppearance.DialogWindowTitle"
+            android:layout_margin="10dp"
+            android:background="#6294a9"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</LinearLayout>

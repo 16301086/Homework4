@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Fragment"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--左边的盒子-->
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:id="@+id/left_box"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/a"
+                      />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_1"
+                        android:text="@string/clock2"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/b"/>
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_2"
+                        android:text="@string/clock1"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/c"/>
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_3"
+                        android:text="@string/clock3"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/d"
+                        />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_4"
+                        android:text="@string/clock2"
+                        android:drawableLeft="@mipmap/user"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+            <!--右边的盒子-->
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:id="@+id/right_box"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/e"
+                        />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_5"
+                        android:text="@string/clock1"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/f"
+                        />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_6"
+                        android:text="@string/clock3"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/g"
+                        />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_7"
+                        android:text="@string/clock2"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/h"
+                        />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_8"
+                        android:text="@string/clock2"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+                <!--一个打卡记录-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        app:srcCompat="@mipmap/i"
+                        />
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:paddingTop="2dp"
+                        android:id="@+id/textView_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView_9"
+                        android:text="@string/clock3"
+                        android:drawableLeft="@mipmap/user"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
