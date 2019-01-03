@@ -51,6 +51,8 @@ public class Main_Fragment extends Fragment {
         OnClick onclick = new OnClick();
         final ImageButton feed = getActivity().findViewById(R.id.imageButton_feed);
         feed.setOnClickListener(onclick);
+        final ImageButton events = getActivity().findViewById(R.id.imageButton_events);
+        events.setOnClickListener(onclick);
     }
     private class OnClick implements View.OnClickListener{
         @Override
@@ -59,6 +61,9 @@ public class Main_Fragment extends Fragment {
             switch (v.getId()){
                 case R.id.imageButton_feed:
                     intent = new Intent(getActivity(),VideoList.class);
+                    break;
+                case R.id.imageButton_events:
+                    intent = new Intent(getActivity(),MyEvents.class);
                     break;
             }
             startActivity(intent);

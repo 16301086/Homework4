@@ -86,7 +86,7 @@
         app:srcCompat="@drawable/buttona" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton_events"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:scaleType="fitXY"

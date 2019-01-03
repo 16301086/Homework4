@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/classc"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/cname1"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Hatha Yoga" />
+        <TextView
+            android:id="@+id/tname1"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cname1"
+            android:layout_toRightOf="@id/img1"
+            android:text="Coach: Mr.Zhao" />
+        <TextView
+            android:id="@+id/time1"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tname1"
+            android:layout_toRightOf="@id/img1"
+            android:text="Time: 18/12/26-19/2/26" />
+
+        <TextView
+            android:id="@+id/taken1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time1"
+            android:layout_marginHorizontal="2dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Taken: 10" />
+        <TextView
+            android:id="@+id/left1"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taken1"
+            android:layout_toRightOf="@id/img1"
+            android:text="Left: 5" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/classb"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/cname2"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Belly Dance" />
+        <TextView
+            android:id="@+id/tname2"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cname2"
+            android:layout_toRightOf="@id/img2"
+            android:text="Coach: Mr.Li" />
+        <TextView
+            android:id="@+id/time2"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tname2"
+            android:layout_toRightOf="@id/img2"
+            android:text="Time: 18/12/31-19/12/31" />
+        <TextView
+            android:id="@+id/taken2"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time2"
+            android:layout_toRightOf="@id/img2"
+            android:text="Taken: 6" />
+        <TextView
+            android:id="@+id/left2"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taken2"
+            android:layout_toRightOf="@id/img2"
+            android:text="Left: 9" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/classd"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img3"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Hot Yoga" />
+        <TextView
+            android:id="@+id/tname"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cname"
+            android:layout_toRightOf="@id/img3"
+            android:text="Coach: Mrs.Hu" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tname"
+            android:layout_toRightOf="@id/img3"
+            android:text="Time: 18/12/26-19/2/26" />
+        <TextView
+            android:id="@+id/taken"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time"
+            android:layout_toRightOf="@id/img3"
+            android:text="Taken: 2" />
+        <TextView
+            android:id="@+id/left"
+            android:layout_marginHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taken"
+            android:layout_toRightOf="@id/img3"
+            android:text="Left: 8" />
+    </RelativeLayout>
+
+</LinearLayout>
